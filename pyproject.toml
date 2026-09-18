@@ -1,0 +1,12 @@
+[project]
+name = "md2typ-book-builder"
+version = "1.0.0"
+description = "Công cụ dựng PDF sách kỹ thuật từ Markdown + Typst với giao diện TUI"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.7.0",
+    "questionary>=2.0.0",
+]
+
+[project.scripts]
+build-book = "build_book:main"
